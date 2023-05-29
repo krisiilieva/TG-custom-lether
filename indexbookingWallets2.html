@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+ 
+
+        <!-- --- | TOP OF THE PAGE | --- -->
+
+        <section class="top_of_the_page">
+          <div class="top_page_items_holder">
+              <img class="company_logo" src="Images/company_logo.png" alt="The logo of our company">
+              <div class="cart_language_icon_holder">
+                  <img alt="language">
+                  <button class="nav_button">Order Now</button>
+              </div>
+          </div>
+        </section>
+
+
+           <!-- --- | NAVIGATION BAR | --- -->
+
+           <nav id="nav_bar">
+              <div class="nav_ul_holder">
+                  <ul class="navigationbar_ul">
+                      <li class="nav_item_li"><a href="index.html">Home</a></li>
+                      <li class="nav_item_li"><a href="indexDUK.html">You Didn't know</a></li>
+                      <li class="nav_item_li">Our work</li>
+                      <li class="nav_item_li"><a href="indexAT.html">Our Team</a></li>
+                  </ul>
+              </div>
+          </nav>
+</header>
+<main class="booking_main_section">
+
+
+    <!-- BOOKING STAGE -->
+
+    <section class="booking_stage_section">
+        <div class="booking_stage_item">
+            <img class="booking_stage_picture" src="Images/booking_stage1.png" alt="Booking stage">
+            <p class="booking_stage_text">
+                Choose type of product
+            </p>
+        </div>
+        <div class="booking_line booking_line_gold1"></div>
+        <div class="booking_stage_item">
+            <img class="booking_stage_picture" src="Images/booking_stage2.png" alt="Booking stage">
+            <p class="booking_stage_text">
+                Choose what you want on it
+            </p>
+        </div>
+        <div class="booking_line"></div>
+        <div class="booking_stage_item">
+            <img class="booking_stage_picture" src="Images/booking_stage3.png" alt="Booking stage">
+            <p class="booking_stage_text">
+                Custom Details
+            </p>
+        </div>
+    </section>
+
+        <!-- PRODUCT SEPCIFICATIONS AND SUMMARY SECTION -->
+
+    <div class="product_n_summary_holder">
+
+        <div class="product_spec_section">
+            
+            <p class="booking_wallets_header">Type of Wallets</p>
+            <div class="booking_wallets_item_holder">
+                <input type="color" id="color" name="wallets_type">
+                <label for="wallets_type" class="booking_wallets_items_label">Choose color
+                    for the background
+                </label>
+            </div>
+            
+            <div class="booking_wallets_item_holder">
+                <input type="file" name="wallets_type">
+                <label for="wallets_type" class="booking_wallets_items_label"> Improt the picture you want on your wallet
+                </label>
+            </div>
+         
+            <div class="booking_wallets_item_holder booking_order_comment_field_flex">
+                <label class="booking_wallets_items_label">Your Comment
+                </label>
+                <textarea class="order_comment_field"> </textarea>
+            </div>
+
+        </div>
+        <div class="booking_summary">
+            <div class="booking_summary_heading_yourprod">
+                <h2>Order Summary</h2>
+                <div class="booking_summary_text_output_flex">
+                    <h4>Your Product</h4>
+                    <div id="product_output" class="summary_output"></div>
+                    <div class="summary_line"></div>
+                    <h3>Total Price</h3>
+                    <div id="price_output" class="summary_output"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="button_holder_center">
+        <div class="back_next_btns_holder">
+            <button class="next_page_button booking_btns" onclick="NextPage()">Next</button>
+            <button class="back_button booking_btns" onclick="history.back()">Back</button>
+        </div>
+    </div>
+</main>
+
+<script src="booking3.js"></script>
+<script src="javascript_navbar.js"></script>
+</body>
+</html>

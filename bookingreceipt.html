@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+     <main>
+       
+        
+         <!-- --- | THE BEGINING OF THE RECEIPT | --- -->
+
+        <div class="receipt_center">
+            <div class="receipt_outter">
+
+                    <!-- - | THE OUTPUT | - -->
+                  
+                <div id="output" class="output"></div>
+                    <div class="receipt_checkbox_holder_out">
+                            <div class="receipt_checkbox_holder">
+                                <input type="checkbox" name="receipt_checkbox" id="final_step_check">
+                                <label for="receipt_checkbox" class="receipt_check_label">Everything is correct</label>
+                            </div>
+                    </div>
+                </div>
+        </div>
+        <div class="button_holder_center">
+            <div class="back_next_btns_holder">
+                <button class="next_page_button booking_btns" onclick="NextPage()">Finish</button>
+                <button class="back_button booking_btns" onclick="history.back()">Back</button>
+            </div>
+        </div>
+     </main>
+
+    <script src="bookingreceipt.js"></script>
+</body>
+</html>

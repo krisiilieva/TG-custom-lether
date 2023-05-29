@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "..\\..\\My Projects and works\\Projects\\Exam Project 2nd semseter\\Programming\\Booking system"
+		},
+		{
+			"path": "..\\..\\My Projects and works\\Projects\\Exam Project 2nd semseter\\Programming"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Coding Krisi booking system",
+		"liveServer.settings.port": 5501
+	}
+}
